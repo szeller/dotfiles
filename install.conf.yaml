@@ -6,7 +6,7 @@
   link: 
     ~/.config/sublime-text-3: 
       create: true
-      path: config/sublime-text-3/
+      path: sublime-text-3
     ~/.dotfiles: ""
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
