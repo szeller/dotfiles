@@ -12,6 +12,9 @@
     ~/.gitignore_global: gitignore_global
     ~/.ssh/config: sshconfig
     ~/.bash_profile: bash_profile
+    ~/.config/iterm2:
+      create: true
+      path: iterm2
 - 
   shell: 
     - 
