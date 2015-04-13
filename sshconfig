@@ -1,0 +1,6 @@
+
+Host pmahi
+ HostName pookismahi.swankdiddly.com
+ User ec2-user
+ IdentityFile ~/.ssh/sz_aws_pers.pem
+

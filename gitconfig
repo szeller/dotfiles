@@ -1,0 +1,58 @@
+[log]
+	date = local
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+        cp = cherry-pick
+        l = log --graph --pretty=format:'%C(cyan bold)%h%Creset %C(white bold)|%C(yellow)%d%Creset %s %C(green bold)(%cr)%Creset %C(yellow bold)(%an)' --abbrev-commit --date=relative 
+	amend = commit --amend -C HEAD
+	me = log --date=local --author=szeller
+	excluded = ls-files --others -i --exclude-standard
+	svf = svn fetch
+	svr = svn rebase
+	svd = svn dcommit
+        sl = svn log --show-commit 
+        cp = cherry-pick
+[merge]
+	tool = Kaleidoscope
+	summary = true
+[core]
+	excludesfile = /Users/szeller/.gitignore_global
+	editor = vim
+[push]
+	default = simple
+[branch]
+	autosetuprebase = always
+
+[user]
+	name = Shawn Zeller
+	email = sazeller@gmail.com
+
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustexitcode = true
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[difftool]
+	prompt = false
+[mergetool]
+	prompt = false
+[diff]
+	tool = Kaleidoscope
