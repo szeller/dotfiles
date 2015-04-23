@@ -20,3 +20,7 @@
     - 
       - "curl https://sublime.wbond.net/Package%20Control.sublime-package -o ~/.config/sublime-text-3/Installed\\\ Packages/Package\\\ Control.sublime-package"
       - "Installing Package Control"
+    -
+      - "defaults write com.googlecode.iterm2 PrefsCustomFolder -string \"~/.config/iterm2\""
+      - "Point iterm preferences at the dotfiles version"
+
