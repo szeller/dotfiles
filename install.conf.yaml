@@ -4,7 +4,7 @@
     - "~"
 - 
   link: 
-    ~/.config/sublime-text-3: 
+    ~/Library/Application Support/Sublime Text 3: 
       create: true
       path: sublime-text-3
     ~/.dotfiles: ""
