@@ -37,5 +37,3 @@ alias gitback='git br -f $(list_git_branch)_backup'
 
 alias known_hosts='cat ~/.ssh/known_hosts | sed "s/\([^, ]*\).*/\1/"'
 
-alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
-

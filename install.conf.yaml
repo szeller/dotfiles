@@ -15,6 +15,9 @@
     ~/.config/iterm2:
       create: true
       path: iterm2
+    ~/.config/sublime-text-3:
+      create: true
+      path: sublime-text-3
 - 
   shell: 
     - 
