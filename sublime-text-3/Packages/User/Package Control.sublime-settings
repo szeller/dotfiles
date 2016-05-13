@@ -1,13 +1,18 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
 		"Better CoffeeScript",
+		"Git Config",
 		"JSONLint",
+		"JsonTree",
+		"Markdown Preview",
 		"Package Control",
 		"Pretty JSON",
+		"SideBarEnhancements",
 		"Siteleaf Liquid Syntax",
 		"Theme - Coffee"
 	]
