@@ -4,6 +4,11 @@ Host pmahi
  User ec2-user
  IdentityFile ~/.ssh/sz_aws_pers.pem
 
+Host ops
+ HostName ops.swankdiddly.com
+ User ec2-user
+ IdentityFile ~/.ssh/pmahi_aws_01.pem
+
 Host lc-szeller-util
  HostName 10.3.1.182
  User ubuntu 
