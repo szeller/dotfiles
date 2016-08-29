@@ -10,8 +10,8 @@
 	ci = commit
 	co = checkout
 	br = branch
-        cp = cherry-pick
-        l = log --graph --pretty=format:'%C(cyan bold)%h%Creset %C(white bold)|%C(yellow)%d%Creset %s %C(green bold)(%cr)%Creset %C(yellow bold)(%an)' --abbrev-commit --date=relative 
+	cp = cherry-pick
+	l = log --graph --pretty=format:'%C(cyan bold)%h%Creset %C(white bold)|%C(yellow)%d%Creset %s %C(green bold)(%cr)%Creset %C(yellow bold)(%an)' --abbrev-commit --date=relative 
         lbranch = log -1 --pretty=format:'%C(white bold)%D%Creset %ar %C(yellow)%an%Creset'
 	amend = commit --amend -C HEAD
 	me = log --date=local --author=szeller
@@ -19,8 +19,8 @@
 	svf = svn fetch
 	svr = svn rebase
 	svd = svn dcommit
-        sl = svn log --show-commit 
-        cp = cherry-pick
+	sl = svn log --show-commit 
+	up = !git fetch -p && git rebase --autostash FETCH_HEAD
 [merge]
 	tool = Kaleidoscope
 	summary = true

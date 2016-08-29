@@ -5,8 +5,11 @@
 	],
 	"installed_packages":
 	[
+		"Babel",
 		"Better CoffeeScript",
+		"ESLint",
 		"Git Config",
+		"HTML Mustache",
 		"JSONLint",
 		"JsonTree",
 		"Markdown Preview",
