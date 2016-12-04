@@ -15,8 +15,11 @@
 		"Markdown Preview",
 		"Package Control",
 		"Pretty JSON",
+		"SCSS",
 		"SideBarEnhancements",
 		"Siteleaf Liquid Syntax",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"Theme - Coffee"
 	]
 }
