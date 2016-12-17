@@ -9,3 +9,12 @@ Host pmahi
  User ec2-user
  IdentityFile ~/.ssh/pmahi_aws_01.pem
 
+Host 10.0.133.* 172.31.* *.frontrowed.com *.frontrowdev.com
+  User ubuntu
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+  PasswordAuthentication no
+  IdentitiesOnly yes
+  LogLevel FATAL
+  IdentityFile ~/.ssh/frontrow_id_rsa
+
