@@ -18,6 +18,9 @@
     ~/.config/sublime-text-3:
       create: true
       path: sublime-text-3
+    ~/.atom:
+      create: true
+      path: atom
 - 
   shell: 
     - 

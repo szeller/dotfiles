@@ -1,0 +1,66 @@
+"*":
+  "atom-material-ui":
+    colors:
+      abaseColor: "#607d8b"
+      genAccent: true
+      predefinedColor: "Blue Grey"
+    fonts: {}
+    tabs:
+      compactTabs: true
+      noTabMinWidth: true
+      tintedTabBar: true
+    treeView:
+      blendTabs: true
+      compactList: true
+    ui:
+      animations: false
+      panelContrast: true
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "tree-view"
+      "linter"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "monokai"
+    ]
+  editor:
+    fontFamily: "Source Code Pro"
+    fontSize: 13
+    preferredLineLength: 120
+    tabType: "soft"
+  "exception-reporting":
+    userId: "1aaaef24-5618-42d3-834f-2da54fef77b4"
+  "isotope-ui":
+    fontFamily: "Source Sans Pro"
+    minimalMode: true
+  "linter-eslint":
+    eslintRulesDir: "eslint"
+  "nord-atom-ui":
+    tabSizing: false
+  "northem-dark-atom-ui":
+    tabSizing: false
+  nuclide:
+    installRecommendedPackages: true
+    "nuclide-diagnostics-ui": {}
+    "nuclide-flow":
+      canUseFlowBin: true
+      warnOnNotInstalled: false
+  "one-dark-ui":
+    layoutMode: "Compact"
+    tabSizing: "Minimum"
+  "tool-bar":
+    visible: false
