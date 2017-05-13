@@ -1,15 +1,34 @@
 {
+	"binary_file_patterns":
+	[
+		"*.dds",
+		"*.eot",
+		"*.gif",
+		"*.ico",
+		"*.jar",
+		"*.jpeg",
+		"*.jpg",
+		"*.pdf",
+		"*.png",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip"
+	],
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Phoenix (SL).tmTheme",
 	"folder_exclude_patterns":
 	[
 		".svn",
 		".git",
 		".hg",
 		"CVS",
-		"node_modules"
+		"node_modules",
+		"assets"
 	],
-	"font_size": 13,
+	"font_size": 11,
 	"ignored_packages":
 	[
+		"Flow",
 		"JSONLint",
 		"Vintage"
 	],

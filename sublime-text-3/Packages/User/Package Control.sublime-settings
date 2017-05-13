@@ -8,8 +8,13 @@
 		"Babel",
 		"Better CoffeeScript",
 		"ESLint",
+		"Flow",
+		"FlowIDE",
 		"Git Config",
+		"GitSavvy",
 		"HTML Mustache",
+		"HTML5",
+		"HTMLBeautify",
 		"JSONLint",
 		"JsonTree",
 		"Markdown Preview",
@@ -20,6 +25,8 @@
 		"Siteleaf Liquid Syntax",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
-		"Theme - Coffee"
+		"SublimeLinter-flow",
+		"Theme - Coffee",
+		"Vagrant"
 	]
 }
