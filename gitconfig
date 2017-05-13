@@ -12,7 +12,8 @@
 	br = branch
 	cp = cherry-pick
 	l = log --graph --pretty=format:'%C(cyan bold)%h%Creset %C(white bold)|%C(yellow)%d%Creset %s %C(green bold)(%cr)%Creset %C(yellow bold)(%an)' --abbrev-commit --date=relative 
-        lbranch = log -1 --pretty=format:'%C(white bold)%D%Creset %ar %C(yellow)%an%Creset'
+	lbranch = log -1 --pretty=format:'%C(white bold)%D%Creset %ar %C(yellow)%an%Creset'
+	tbranch = log -1 --pretty=format:'%D:%ar:%an'
 	amend = commit --amend -C HEAD
 	me = log --date=local --author=szeller
 	excluded = ls-files --others -i --exclude-standard
