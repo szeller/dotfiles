@@ -15,6 +15,8 @@
     ui:
       animations: false
       panelContrast: true
+  "color-picker":
+    abbreviateValues: true
   core:
     customFileTypes:
       "source.ini": [
@@ -44,6 +46,10 @@
     tabType: "soft"
   "exception-reporting":
     userId: "1aaaef24-5618-42d3-834f-2da54fef77b4"
+  "file-icons":
+    coloured: false
+  "git-diff":
+    showIconsInEditorGutter: true
   "isotope-ui":
     fontFamily: "Source Sans Pro"
     minimalMode: true
@@ -56,11 +62,23 @@
   nuclide:
     installRecommendedPackages: true
     "nuclide-diagnostics-ui": {}
+    "nuclide-file-tree":
+      revealFileOnSwitch: true
     "nuclide-flow":
       canUseFlowBin: true
       warnOnNotInstalled: false
+    "nuclide-home":
+      showHome: false
+    "nuclide-outline-view":
+      nameOnly: true
+    use: {}
   "one-dark-ui":
     layoutMode: "Compact"
     tabSizing: "Minimum"
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
   "tool-bar":
     visible: false
+  welcome:
+    showOnStartup: false
