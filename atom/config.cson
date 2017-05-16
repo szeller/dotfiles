@@ -2,7 +2,7 @@
   "atom-material-ui":
     colors:
       abaseColor: "#607d8b"
-      genAccent: true
+      accentColor: "#abdff8"
       predefinedColor: "Blue Grey"
     fonts: {}
     tabs:
@@ -41,15 +41,21 @@
     ]
   editor:
     fontFamily: "Source Code Pro"
-    fontSize: 13
+    fontSize: 11
     preferredLineLength: 120
     tabType: "soft"
   "exception-reporting":
     userId: "1aaaef24-5618-42d3-834f-2da54fef77b4"
   "file-icons":
     coloured: false
+  "git-blame":
+    ignoreWhiteSpaceDiffs: true
   "git-diff":
     showIconsInEditorGutter: true
+  "incremental-search":
+    cancelSearchOnBlur: true
+    instantSearch: true
+    landAtPointInsteadOfRange: true
   "isotope-ui":
     fontFamily: "Source Sans Pro"
     minimalMode: true
