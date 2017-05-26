@@ -15,6 +15,7 @@
     ui:
       animations: false
       panelContrast: true
+      useAnimations: false
   "color-picker":
     abbreviateValues: true
   core:
@@ -32,6 +33,7 @@
       ]
     disabledPackages: [
       "tree-view"
+      "linter-ui-default"
       "linter"
     ]
     telemetryConsent: "no"
@@ -61,6 +63,10 @@
     minimalMode: true
   "linter-eslint":
     eslintRulesDir: "eslint"
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
   "nord-atom-ui":
     tabSizing: false
   "northem-dark-atom-ui":

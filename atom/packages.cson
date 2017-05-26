@@ -21,6 +21,7 @@ packages: [
   "language-ini"
   "language-lua"
   "language-ocaml"
+  "language-rust"
   "language-swift"
   "language-thrift"
   "linter"
@@ -29,6 +30,7 @@ packages: [
   "MagicPython"
   "merge-conflicts"
   "minimap"
+  "minimap-highlight-selected"
   "monokai"
   "nord-atom-syntax"
   "nord-atom-ui"
@@ -42,6 +44,7 @@ packages: [
   "rest-client"
   "set-syntax"
   "sort-lines"
+  "split-diff"
   "tag"
   "tool-bar"
 ]
