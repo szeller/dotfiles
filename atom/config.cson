@@ -43,7 +43,7 @@
     ]
   editor:
     fontFamily: "Source Code Pro"
-    fontSize: 11
+    fontSize: 12
     preferredLineLength: 120
     tabType: "soft"
   "exception-reporting":
@@ -51,6 +51,7 @@
   "file-icons":
     coloured: false
   "git-blame":
+    columnWidth: 320
     ignoreWhiteSpaceDiffs: true
   "git-diff":
     showIconsInEditorGutter: true
