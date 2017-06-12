@@ -21,7 +21,7 @@
 	svr = svn rebase
 	svd = svn dcommit
 	sl = svn log --show-commit 
-	up = !git fetch -p && git rebase --autostash FETCH_HEAD
+	up = pull --rebase --autostash
 [merge]
 	tool = Kaleidoscope
 	summary = true
@@ -66,3 +66,7 @@
 	clean = git lfs clean %f
 	smudge = git lfs smudge %f
 	required = true
+
+[includeIf "gitdir:~/dev/nbox/"]
+	path = ~/.gitconfig_nbox
+

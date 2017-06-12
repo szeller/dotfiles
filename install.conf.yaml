@@ -9,6 +9,7 @@
       path: sublime-text-3
     ~/.dotfiles: ""
     ~/.gitconfig: gitconfig
+    ~/.gitconfig_nbox: gitconfig_nbox
     ~/.gitignore_global: gitignore_global
     ~/.ssh/config: sshconfig
     ~/.bash_profile: bash_profile
