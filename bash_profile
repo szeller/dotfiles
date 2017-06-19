@@ -19,6 +19,8 @@ complete -C aws_completer aws
 #   . $(brew --prefix)/share/bash-completion/bash_completion
 # fi
 
+eval "$(thefuck --alias)"
+
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 

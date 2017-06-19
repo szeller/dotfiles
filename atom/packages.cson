@@ -40,6 +40,7 @@ packages: [
   "nuclide-format-js"
   "nuclide-test-runner-jest"
   "package-sync"
+  "php-debug"
   "pretty-json"
   "rest-client"
   "set-syntax"
