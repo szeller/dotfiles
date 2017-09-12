@@ -30,3 +30,9 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+'.platform-darwin atom-workspace':
+  'ctrl-shift-7': 'nuclide-file-tree:toggle'
+
+'.platform-darwin, .platform-linux, .platform-win32':
+  'ctrl-shift-6': 'diagnostics:toggle-table'
