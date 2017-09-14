@@ -21,6 +21,7 @@ packages: [
   "language-graphql"
   "language-ini"
   "language-lua"
+  "language-markdown"
   "language-ocaml"
   "language-rust"
   "language-swift"
@@ -54,4 +55,5 @@ packages: [
   "tag"
   "tool-bar"
   "vivid"
+  "xml-formatter"
 ]
