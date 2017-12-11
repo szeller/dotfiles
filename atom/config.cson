@@ -61,6 +61,7 @@
     instantSearch: true
     landAtPointInsteadOfRange: true
   "isotope-ui":
+    customBackgroundColorPicker: "#0083f7"
     fontFamily: "Source Sans Pro"
     minimalMode: true
   "linter-eslint":
@@ -89,7 +90,6 @@
       nameOnly: true
     use: {}
   "one-dark-ui":
-    layoutMode: "Compact"
     tabSizing: "Minimum"
   "package-sync":
     createOnChange: true
