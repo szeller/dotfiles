@@ -32,9 +32,10 @@
         "BUCK"
       ]
     disabledPackages: [
-      "tree-view"
       "linter-ui-default"
       "linter"
+      "language-gfm"
+      "tree-view"
     ]
     telemetryConsent: "no"
     themes: [
@@ -63,7 +64,9 @@
     fontFamily: "Source Sans Pro"
     minimalMode: true
   "linter-eslint":
-    eslintRulesDir: "eslint"
+    eslintRulesDirs: [
+      "eslint"
+    ]
   minimap:
     plugins:
       "highlight-selected": true
