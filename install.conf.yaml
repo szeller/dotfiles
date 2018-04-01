@@ -28,7 +28,7 @@
     - kaleidoscope
     - zeplin
     - firefox
-    - firefoxdeveloperedition
+    - caskroom/versions/firefox-developer-edition
     - google-chrome
     - java
     - virtualbox
@@ -37,14 +37,12 @@
     - launchbar
     - istat-menus
     - viscosity
-    - carbon-copy-cloner
     - flux
-    - java6
     - dropbox
-    - font-source-code-pro
-    - font-anonymous-pro
-    - font-source-sans-pro
-    - font-inconsolata-dz
+    - caskroom/fonts/font-source-code-pro
+    - caskroom/fonts/font-anonymous-pro
+    - caskroom/fonts/font-source-sans-pro
+    - caskroom/fonts/font-inconsolata-dz
     - vlc
 - brew:
     - bash-completion
