@@ -89,7 +89,7 @@
     "nuclide-outline-view":
       nameOnly: true
     use:
-      "nuclide-js-imports-client": false
+      "nuclide-js-imports-client": "never"
   "one-dark-ui":
     tabSizing: "Minimum"
   "package-sync":

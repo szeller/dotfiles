@@ -25,7 +25,8 @@
 		"SideBarEnhancements",
 		"Siteleaf Liquid Syntax",
 		"SublimeLinter",
-		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-stylelint",
+		"SublimeLinter-eslint",
 		"SublimeLinter-flow",
 		"Theme - Coffee",
 		"Vagrant"
